@@ -32,7 +32,7 @@ const config = {
 
         "Who knows where life will take you?",
 
-        "A rush of blood tp the head",
+        "A rush of blood to the head",
 
         "Reggata de blanc",
 
