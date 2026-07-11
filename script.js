@@ -28,15 +28,15 @@ const config = {
 
         "Let's be mature, mature suwun",
 
-        "Show up are the greatest win",
+        "Show up is the greatest win in everday life",
 
         "Haters gonna hate anyway",
 
         "Student by obligation. Runner by choice.",
 
-        "Train now. never flex on first later.",
+        "Train now and tomorrow until u die.",
 
-        "Caffein is a must. Consistency isn't."
+        "Consistency is a must, caffein too."
 
     ]
 };
