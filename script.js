@@ -18,13 +18,10 @@ const config = {
     },
 
     pb: {
-        "5k": "Avg Pace 6;37 
-           00:33:10",
-        "10k": "Avg Pace 7:32 
-           01:15:17",
-        "15k": "Avg Pace 7:56
-           01:58:59",
-        "21k/HM": "Soon."
+        "5k": "Avg Pace 6:37 | 00:33:10",
+        "10k": "Avg Pace 7:32 | 01:15:17",
+        "15k": "Avg Pace 7:56 | 01:58:59",
+        "21k": "Soon."
     },
 
     quotes: [
@@ -209,7 +206,7 @@ window.addEventListener("scroll", () => {
     });
 
 });
-
+console.log(`
 Part-time student.
 Full-time training.
 `);
