@@ -39,7 +39,7 @@ const config = {
 
         "Train now. never flex on first later.",
 
-        "Motivation is optional. Consistency isn't."
+        "Caffein is a must. Consistency isn't."
 
     ]
 };
