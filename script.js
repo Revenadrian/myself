@@ -26,17 +26,27 @@ const config = {
 
     quotes: [
 
-        "Let's be mature, mature suwun",
+        "isn't our nature, let's be mature",
 
-        "Show up is the greatest win in everday life",
+        "But who are we kidding? Nobody winning.",
 
-        "Haters gonna hate anyway",
+        "Who knows where life will take you?",
 
-        "Student by obligation. Runner by choice.",
+        "A rush of blood tp the head",
 
-        "Train now and tomorrow until u die.",
+        "Reggata de blanc",
 
-        "Consistency is a must, caffein too."
+        "Ok computer",
+
+       "(what's the story) morning glory?",
+
+       "There nothing left to lose",
+
+       "Enama of the state",
+
+       "All killer, no filler",
+
+       
 
     ]
 };
