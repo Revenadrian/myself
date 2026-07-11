@@ -6,35 +6,38 @@
 const config = {
     name: "REVEN",
 
-    email: "your@email.com",
+    email: "Revenadriantan@gmail.com",
 
     social: {
-        instagram: "https://instagram.com/yourusername",
-        tiktok: "https://tiktok.com/@yourusername",
-        threads: "https://threads.net/@yourusername",
-        strava: "https://www.strava.com/athletes/yourid",
-        hevy: "https://hevy.com/user/yourusername",
-        spotify: "https://open.spotify.com/user/yourid"
+        instagram: "https://instagram.com/Revenadriantan",
+        tiktok: "https://tiktok.com/@Revenadrntan",
+        threads: "https://threads.net/@revenadriantan",
+        strava: "https://strava.app.link/6G5kszHcG4b",
+        hevy: "https://hevy.com/user/Revenadrian",
+        spotify: "https://open.spotify.com/user/31mk722dbhei6ecms6adyz6svrjm?si=44462e83211349ac"
     },
 
     pb: {
-        "5k": "00:00:00",
-        "10k": "00:00:00",
-        "15k": "00:00:00",
-        "21k": "Soon."
+        "5k": "Avg Pace 6;37 
+           00:33:10",
+        "10k": "Avg Pace 7:32 
+           01:15:17",
+        "15k": "Avg Pace 7:56
+           01:58:59",
+        "21k/HM": "Soon."
     },
 
     quotes: [
 
-        "The clock doesn't care about excuses.",
+        "Let's be mature, mature suwun",
 
-        "No shortcuts. Just mileage.",
+        "Show up are the greatest win",
 
-        "Discipline ages better than motivation.",
+        "Haters gonna hate anyway",
 
         "Student by obligation. Runner by choice.",
 
-        "Train now. Flex later.",
+        "Train now. never flex on first later.",
 
         "Motivation is optional. Consistency isn't."
 
