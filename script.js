@@ -303,3 +303,28 @@ async function updateVisitor() {
 }
 
 updateVisitor();
+
+async function randomKnowledge() {
+    try {
+        const response = await fetch(
+            "https://en.wikipedia.org/api/rest_v1/page/random/summary"
+        );
+
+        const data = await response.json();
+
+        document.getElementById("wiki-title").innerText =
+            data.title;
+
+        document.getElementById("wiki-text").innerText =
+            data.extract;
+
+        document.getElementById("wiki-link").href =
+            data.content_urls.desktop.page;
+
+    } catch {
+        document.getElementById("wiki-title").innerText =
+            "Knowledge unavailable";
+    }
+}
+
+randomKnowledge();
