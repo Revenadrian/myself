@@ -242,8 +242,8 @@ async function loadLastListening() {
 
         document.getElementById("last-song").textContent = track.name;
 
-       document.getElementById("last-time").textContent =
-    timeAgo(Number(track.date.uts));
+ document.getElementById("last-artist").textContent =
+    track.artist["#text"];
 
         document.getElementById("last-cover").src =
             track.image[3]["#text"];
