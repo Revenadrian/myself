@@ -26,9 +26,9 @@ const config = {
 
     quotes: [
 
-        "isn't our nature, let's be mature",
+        "(What's the story) morning glory?",
 
-        "But who are we kidding? Nobody winning.",
+        "Master of puppets",
 
         "Who knows where life will take you?",
 
@@ -38,13 +38,63 @@ const config = {
 
         "Ok computer",
 
-       "(what's the story) morning glory?",
+       "Is'nt our nature, let's be mature",
 
        "There nothing left to lose",
 
        "Enema of the state",
 
        "All killer, no filler",
+
+       "Dude Ranch",
+
+       "Dookie",
+
+       "Superunknown",
+
+       "Nevermind",
+
+       "1984",
+
+       "The joshua tree",
+
+       "Sliperry when wet",
+
+       "Appetite for destruction",
+
+       "the dark side of the moon",
+
+       "In rainbow",
+
+     "The bends",
+   
+   "Californication",
+
+   "Sticky fingers",
+
+   "London calling",
+
+   "In utero",
+
+   "Parklife",
+
+   "Hybrid theory",
+
+       "The black parade",
+
+   "Hot fuss",
+
+       "Toxicity",
+
+       "Agterplaas",
+
+       "Never get better",
+
+       "Kid A",
+
+       "Sinestesia"
+
+       
 
        
 
