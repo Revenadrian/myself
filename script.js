@@ -220,3 +220,53 @@ console.log(`
 Part-time student.
 Full-time training.
 `);
+
+/* ===========================
+   LAST.FM
+=========================== */
+
+async function loadLastListening() {
+
+    const API_KEY = "59ed14b713c85189a3e1c2eed4c0ec8f";
+    const USER = "revenmc";
+
+    try {
+
+        const response = await fetch(
+            `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${USER}&api_key=${API_KEY}&format=json&limit=1`
+        );
+
+        const data = await response.json();
+
+        const track = data.recenttracks.track[0];
+
+        document.getElementById("last-song").textContent = track.name;
+
+        document.getElementById("last-artist").textContent =
+            track.artist["#text"];
+
+        document.getElementById("last-cover").src =
+            track.image[3]["#text"];
+
+        if (track.date) {
+            document.getElementById("last-time").textContent =
+                track.date["#text"];
+        } else {
+            document.querySelector(".music-status").innerHTML =
+                '<i class="ri-disc-fill"></i> Currently Listening';
+            document.getElementById("last-time").textContent =
+                "Now Playing ●";
+        }
+
+    } catch (err) {
+
+        console.error(err);
+
+        document.getElementById("last-song").textContent = "Unable to load";
+        document.getElementById("last-artist").textContent = "";
+
+    }
+
+}
+
+loadLastListening();
