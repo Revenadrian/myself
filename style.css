@@ -184,83 +184,82 @@ h1{font-size:3.5rem}
     letter-spacing: 2px;
 }
 
-/* ===========================
-   RANDOM KNOWLEDGE
-=========================== */
+/* CONTACT SECTION */
+
+.contact-area {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 60px;
+    align-items: start;
+}
+
+
+.contact-box h2 {
+    margin-bottom: 20px;
+}
+
+
+.contact-box p {
+    opacity: .7;
+    line-height: 1.8;
+}
+
+
+.contact-box .btn {
+    margin-top: 20px;
+}
+
+
+/* KNOWLEDGE MODULE */
 
 .knowledge {
-    width: min(90%, 650px);
-    margin: 100px auto 50px;
+    border: 1px solid rgba(255,255,255,0.15);
     padding: 30px;
-    border: 1px solid #222;
-    background: #050505;
-    border-radius: 12px;
-    transition: 0.3s ease;
 }
 
-.knowledge:hover {
-    border-color: #555;
-    transform: translateY(-4px);
-}
-
-
-/* HEADER */
 
 .knowledge-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
-    padding-bottom: 18px;
-    margin-bottom: 25px;
-
-    border-bottom: 1px solid #222;
-
-    font-size: 11px;
-    letter-spacing: 3px;
-    opacity: 0.6;
-}
-
-.status {
     font-size: 10px;
+    letter-spacing: 3px;
+    opacity: .5;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
 }
 
 
-/* CONTENT */
+.knowledge-content {
+    padding-top: 25px;
+}
+
 
 .knowledge-content h3 {
-    font-size: 32px;
-    font-weight: 500;
-    letter-spacing: -1px;
-    margin-bottom: 18px;
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
+
 .knowledge-content p {
-    font-size: 15px;
-    line-height: 1.8;
-    opacity: 0.7;
-    max-width: 550px;
+    opacity: .7;
+    line-height: 1.7;
 }
 
 
 .knowledge-content a {
     display: inline-block;
-
-    margin-top: 25px;
-
-    font-size: 12px;
-    letter-spacing: 2px;
-
+    margin-top: 20px;
     color: white;
     text-decoration: none;
-
-    padding-bottom: 5px;
-    border-bottom: 1px solid #333;
-
-    transition: 0.3s;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 
-.knowledge-content a:hover {
-    border-color: white;
+@media(max-width:768px){
+
+    .contact-area {
+        grid-template-columns: 1fr;
+    }
+
 }
